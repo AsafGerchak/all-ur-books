@@ -81,7 +81,7 @@ function App() {
                 <button
                   onClick={ () => handleDelete(bookObject.key) }
                 >
-                  Delete this book!
+                  Delete this fucking book!
                 </button>
               </li>
             )

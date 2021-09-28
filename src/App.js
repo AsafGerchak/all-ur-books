@@ -58,7 +58,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>CATS</h1>
+      <h1>Readin'!</h1>
 
       <form action="submit" onSubmit={handleSubmit} >
         <label htmlFor="userBookChoice">Type the name of a book to add! </label>

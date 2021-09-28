@@ -61,7 +61,7 @@ function App() {
       <h1>CATS</h1>
 
       <form action="submit" onSubmit={handleSubmit} >
-        <label htmlFor="userBookChoice">Write a book to add to the shelf!</label>
+        <label htmlFor="userBookChoice">Type the name of a book to add! </label>
         <input
           type="text"
           id="userBookChoice"
@@ -81,7 +81,7 @@ function App() {
                 <button
                   onClick={ () => handleDelete(bookObject.key) }
                 >
-                  Delete this fucking book!
+                  Donate this book!
                 </button>
               </li>
             )
